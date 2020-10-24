@@ -1,0 +1,7 @@
+---
+# tasks file for htnhello
+
+- name: make directory
+  file: 
+    path=/root/HelloAnsible/
+    state=directory
